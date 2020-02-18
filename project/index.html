@@ -1,0 +1,106 @@
+<!<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>My Project</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css"
+  </head>
+  <body>
+    <header>
+      <h1>Edit Your Profile</h1>
+    </header>
+    <main class="container">
+      <form>
+    <!-- FIRST ROW -->
+        <div class="form-row">
+          <!-- First name -->
+          <div class="form-group col-md-4">
+            <label for="inputFirstName">First Name</label>
+            <input type="text" class="form-control" id="inputFirstName">
+          </div>
+          <!-- Middle name -->
+          <div class="form-group col-md-4">
+            <label for="inputMiddleName">Middle Name</label>
+            <input type="text" class="form-control" id="inputMiddleName">
+          </div>
+          <!-- Last name -->
+          <div class="form-group col-md-4">
+            <label for="inputLastName">Last Name</label>
+            <input type="text" class="form-control" id="inputLastName">
+          </div>
+        </div>
+    <!-- SECOND ROW -->
+        <!-- Birthdate -->
+        <div class="form-group">
+          <label for="inputBirthday">Birthdate</label>
+          <input type="date" class="form-control" id="inputBirthday">
+        </div>
+    <!-- THIRD ROW -->
+        <!-- Address -->
+        <div class="form-group">
+          <label for="inputAddress">Address</label>
+          <input type="text" class="form-control" id="inputAddress" placeholder="Street Address">
+        </div>
+    <!-- FOURTH ROW -->
+        <div class="form-row">
+          <!-- Barangay -->
+          <div class="form-group col-md-4">
+            <label for="inputBarangay">Barangay</label>
+            <select id="inputBarangay" class="form-control">
+              <option selected>Choose...</option>
+              <option>...</option>
+            </select>
+          </div>
+          <!-- City -->
+          <div class="form-group col-md-4">
+            <label for="inputCity">City</label>
+            <select id="inputCity" class="form-control">
+              <option selected>Choose...</option>
+              <option>...</option>
+            </select>
+          </div>
+          <!-- Province -->
+          <div class="form-group col-md-4">
+            <label for="inputProvince">Province</label>
+            <select id="inputProvince" class="form-control">
+              <option selected>Choose...</option>
+              <option>...</option>
+            </select>
+          </div>
+        </div>
+    <!-- FIFTH ROW -->
+        <div class="form-row">
+          <!-- Number -->
+          <div class="form-group col-md-4">
+            <label for="inputNumber">Number</label>
+            <input type="text" class="form-control" id="inputNumber" placeholder="+63 xxx xxx xxxx">
+          </div>
+        </div>
+    <!-- SIXTH ROW -->
+        <div class="form-row">
+          <!-- Description -->
+          <div class="form-group col-md-4">
+            <label for="inputDescription">Description</label>
+            <textarea class="form-control" rows="5" id="inputDescription"></textarea>
+          </div>
+        </div>
+    <!-- SEVENTH ROW -->
+        <div class="form-row">
+          <div class="form-group">
+            <label for="inputImage">Upload picture</label>
+            <input type="file" id="inputImage">
+          </div>
+        </div>
+
+        <!-- Sign in -->
+        <button type="submit" class="btn btn-primary">Sign in</button>
+      </form>
+
+
+
+    </main>
+    <script type="text/javascript" src="js/jquery-3.4.1.slim.min.js"></script>
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  </body>
+</html>
